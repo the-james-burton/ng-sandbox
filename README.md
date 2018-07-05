@@ -1,4 +1,8 @@
-# NgSandbox
+# Angular sandbox [![Build Status](https://travis-ci.org/the-james-burton/ng-sandbox.svg?branch=master)](https://travis-ci.org/the-james-burton/ng-sandbox)
+
+## What is this?
+
+My playground to learn and explore Angular 6, with a focus on typescript, functional reactive programming and interoperability with my [spring-boot-sandbox](https://github.com/the-james-burton/spring-boot-sandbox) project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
