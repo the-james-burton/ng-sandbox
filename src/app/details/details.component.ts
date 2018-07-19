@@ -10,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class DetailsComponent implements OnInit {
 
-  user$: Object;
+  user$: object;
 
   constructor(private data: DataService, private route: ActivatedRoute) {
     // get the users id from the url...
