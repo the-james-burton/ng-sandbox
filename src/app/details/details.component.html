@@ -1,7 +1,10 @@
-<h1>{{ user$.name }}</h1>
-
-<ul>
-  <li><strong>Username:</strong> {{ user$.username }}</li>
-  <li><strong>Email:</strong> {{ user$.email }}</li>
-  <li><strong>Phone:</strong> {{ user$.phone }}</li>
-</ul>
+<mat-card>
+  <mat-card-title>{{ user$.name }}</mat-card-title>
+  <mat-card-content>
+    <ul>
+      <li><strong>Username:</strong> {{ user$.username }}</li>
+      <li><strong>Email:</strong> {{ user$.email }}</li>
+      <li><strong>Phone:</strong> {{ user$.phone }}</li>
+   </ul>
+  </mat-card-content>
+</mat-card>
