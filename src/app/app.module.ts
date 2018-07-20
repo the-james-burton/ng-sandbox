@@ -14,6 +14,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     UsersComponent,
     DetailsComponent,
     NavigationComponent,
-    DashboardComponent
+    DashboardComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
